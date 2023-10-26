@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(56, 45, 45);
+}
+
+#hussein{
+  width: 160px;
+    height: 142px;
+    border: 2px solid #fff;
+    outline: 2px solid red;
+    position: absolute;
+    left: 50%;
+    transform: translate(-13%, 12%);
+    border-radius: 50%;
+}
+
+h2{
+  position: absolute;
+    left: 25%;
+    top: 10%;
+    color: #fff;
+}
+h2 span{
+  color: red;
+  font-size: 35px;
+}
+#canvas1{
+  border: 4px solid rgb(184, 165, 165);
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(77, 190, 221);
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Bangers', cursive;
+  border-radius: 8px;
+}
+
+/* styele images */
+#layer1, #layer2, #layer3, #layer4, #plyer, #lucky,
+#angler2, #angler1, #projectile, #gears, #hivewhale, #drone, #smoke
+, #fire{
+display: none;
+}
